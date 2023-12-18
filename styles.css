@@ -1,1 +1,35 @@
-/*  your css code here. If applicable */
+/* styles.css */
+
+/* Aligning the hero section content */
+.hero {
+    display: flex;
+	text-align: center;	
+}
+
+.hero img {
+    width: 550px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    text-align: center;
+    
+    padding: 20px; /* Adding padding for better spacing */
+	
+}
+
+.content h1,
+.content p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Styling the button */
+button {
+    background-color: #E60023;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Adding border radius to create a rectangular shape */
+    padding: 10px 20px; /* Adding padding for button size */
+}
+
